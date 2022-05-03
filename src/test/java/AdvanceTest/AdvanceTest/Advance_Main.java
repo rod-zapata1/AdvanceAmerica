@@ -13,6 +13,9 @@ public class Advance_Main extends BaseClass{
 		// Validate Advance America Loans screen is displayed
 		loanLabel(driver); 
 		
+		// Click on change location option
+		//change_location(driver); 
+		
 		// Enter a ZipCode outside of the US
 		enter_zipCode(driver, "97302");
 		
